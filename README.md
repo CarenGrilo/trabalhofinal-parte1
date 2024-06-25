@@ -9,10 +9,15 @@ A API usada é a Brasil API e os dados são persistidos num banco de dados SQLit
 
 
 *ESTRUTURA DO REPOSITÓRIO*
+
 |-- __main__.py
+
 |-- banco.db
+
 |-- extract.py
+
 |-- load.py
+
 └── notification.py
 
 
