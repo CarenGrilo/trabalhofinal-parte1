@@ -8,6 +8,7 @@ Consiste num sistema que extrai dados de uma API que fornece previsão de tempo 
 A API usada é a Brasil API e os dados são persistidos num banco de dados SQLite local.
 
 
+
 *ESTRUTURA DO REPOSITÓRIO*
 
 |-- __main__.py
@@ -19,6 +20,7 @@ A API usada é a Brasil API e os dados são persistidos num banco de dados SQLit
 |-- load.py
 
 └── notification.py
+
 
 
 *DESCRIÇÃO DOS ARQUIVOS*
@@ -54,6 +56,7 @@ Verifica o número de registros nas tabelas de cidades, previsões de tempo e on
 Caso ocorram erros na obtenção de dados de ondas para uma cidade específica, uma notificação é exibida utilizando a biblioteca Plyer.
 
 
+
 *COMO USAR*
 
 1. Pré-requisitos
@@ -73,15 +76,14 @@ cd nome-do-repositorio
 python __main__.py
 
 
+
 *CONTRIBUIÇÃO*
 Todas as contribuições são bem-vindas! 
 Fique muito a vontade. Qualquer opinião será fonte de aprendizado para todos nós!
+
 
 
 *LICENÇA*
 Este projeto está licenciado sob a MIT License - veja o arquivo LICENSE para mais detalhes.
 Fique muito a vontade. Qualquer contribuição será bem vinda e será fonte de aprendizado para todos nós!
 
-
-Licença
-Este projeto está licenciado sob a MIT License - veja o arquivo LICENSE para mais detalhes.
