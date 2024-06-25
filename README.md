@@ -8,7 +8,7 @@ Consiste num sistema que extrai dados de uma API que fornece previsão de tempo 
 A API usada é a Brasil API e os dados são persistidos num banco de dados SQLite local.
 
 
-Estrutura do Repositório
+*ESTRUTURA DO REPOSITÓRIO*
 |-- __main__.py
 |-- banco.db
 |-- extract.py
